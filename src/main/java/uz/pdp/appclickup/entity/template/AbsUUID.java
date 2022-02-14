@@ -15,7 +15,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public abstract class AbsUUID {
+public abstract class AbsUUID extends AbsMain{
 
     @Id
     @GeneratedValue(generator = "uuid2")
